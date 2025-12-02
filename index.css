@@ -1,27 +1,137 @@
-.student{
-    color:pink;
-    font-size: 100px;
-    font-weight: bold;
+body{
+    margin: 0;
+    padding: 0;
     
 }
-.home{
-    color:blue;
-    font-size:100px;
-    text-align:center;
+.signup{
+    height:500px;
+    width:600px;
+    
+    border :5px solid black;
+    margin: 250px 100px 150px 100px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: xx-large;
+    color:goldenrod;
+    font-weight: 900;
+    background-color: rgba(20, 20, 20, 0.491);
+    
+    
+    
+}
+.data{
+    
+    padding:50px;
+    gap:10px;
 }
 
-.para{
-    background-color:rgb(114, 255, 130);
-    text-align: center;
-    font-size: 40px;
+
+.data input{
+    justify-content: center;
+    border-radius: 7.5px;
+    height: 20px;
+    /* align-items: center; */
+    margin:px;
 }
-#sandy{
-    color:red;  
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-}
-#vijay{
-    color:violet;
+
+
+.data label{
+    color:white ;
+    margin:8px;
     
+}
+.signup-container{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url("./asserts/signupbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit:contain;
+    background-attachment: fixed;
+}
+
+.outer{
+    height:100px;
+    width: 100px;
+}
+.logo-image{
+    height: 100px;
+    width:100px;
+    object-fit: contain;
+}
+.header-container{
+    display: flex;
+    background-color: black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    justify-content: space-around;
+    color:aqua;
+
+}
+.head-items{
+    display: flex;
+    list-style: none ;
+    color:white;
+    gap:25px;
+}
+.head-container{
+    display: flex;
+    align-items: center;
+
+}
+.logo-image2{
+    height:400px;
+    width:400px;
+    margin: 20px 0px 0px 900px;
+}
+.mm{
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 900;
+    display: flex;
+    font-size: 40px;
+}
+.home{
+    text-decoration: underline;
+    color:blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+
+}
+/* .about{
+    text-decoration: underline;
+    color:blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    
+} */
+.body{
+    background-color: goldenrod;
+
+}
+.login{
+
+    height:500px;
+    width:500px;
+    border :5px solid goldenrod;
+    margin: 250px 250px 250px 900px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 100px;
+    font-size: x-large;
+    font-weight: 1000;
+}
+.im{
+    background-image: url("./asserts/image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit:contain;
+    background-attachment: fixed;
 }
